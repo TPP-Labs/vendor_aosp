@@ -86,11 +86,14 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
-# Build Manifest
+# Charger
 PRODUCT_PACKAGES += \
-    build-manifest
+    charger_res_images \
+    product_charger_res_images \
+    product_charger_res_images_vendor
 
-# PixelProject packages
+ifeq ($(CUSTOM_BUILDTYPE), OFFICIAL)
+# custom packages
 PRODUCT_PACKAGES += \
     Updater
 
