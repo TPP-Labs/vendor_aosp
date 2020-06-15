@@ -78,6 +78,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
+# Lineage-specific file
+PRODUCT_COPY_FILES += \
+    vendor/aosp/config/permissions/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
+
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
@@ -255,3 +259,4 @@ $(call inherit-product, vendor/zenith/config/common/optimisation.mk)
 
 # Fonts
 include vendor/aosp/config/fonts.mk
+
