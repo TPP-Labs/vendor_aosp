@@ -97,11 +97,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init/init.custom-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lineage-updater.rc
 
-# Config
-PRODUCT_PACKAGES += \
-    SimpleDeviceConfig \
-    SimpleSettingsConfig
-
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
