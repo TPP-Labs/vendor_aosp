@@ -248,6 +248,9 @@ CUSTOM_LOCALES += \
 
 include vendor/aosp/config/version.mk
 
+# Optimisation
+$(call inherit-product, vendor/zenith/config/common/optimisation.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
 # Fonts
