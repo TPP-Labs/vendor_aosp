@@ -22,7 +22,9 @@ MD5 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/md5sum
 $(CUSTOM_TARGET_PACKAGE): $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(CUSTOM_TARGET_PACKAGE)
 	$(hide) $(SHA256) $(CUSTOM_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(CUSTOM_TARGET_PACKAGE).sha256sum
+        $(hide) ./vendor/aosp/tools/generate_json_build_info.sh $(TARGET_DEVICE) $(PRODUCT_OUT) $(CUSTOM_VERSION).zip $(PLATFORM_VERSION)
 	@echo "Package Complete: $(CUSTOM_TARGET_PACKAGE)" >&2
 
 .PHONY: bacon
 bacon: $(CUSTOM_TARGET_PACKAGE) $(DEFAULT_GOAL)
+
