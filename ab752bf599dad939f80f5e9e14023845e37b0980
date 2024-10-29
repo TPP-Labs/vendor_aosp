@@ -51,6 +51,23 @@
       "parentUuid": "9d066c9c_b72f27d4",
       "revId": "ab752bf599dad939f80f5e9e14023845e37b0980",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cce1a4e_2ff2556e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24418
+      },
+      "writtenOn": "2024-10-29T14:42:07Z",
+      "side": 1,
+      "message": "I\u0027ve reviewed this again, and also compared it to the configuration in the Samsung S23 FE XAC CSCs. It\u0027s worked perfectly for Freedom over the last few days, and I think it should be okay for other carriers too.",
+      "revId": "ab752bf599dad939f80f5e9e14023845e37b0980",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
