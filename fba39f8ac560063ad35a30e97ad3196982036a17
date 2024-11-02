@@ -52,6 +52,23 @@
       "parentUuid": "11ebd1a7_b152678d",
       "revId": "fba39f8ac560063ad35a30e97ad3196982036a17",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3257a4af_d4ed27ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2024-11-02T08:55:51Z",
+      "side": 1,
+      "message": "Don\u0027t you want RELEASE_AVF_ENABLE_NETWORK as well?",
+      "revId": "fba39f8ac560063ad35a30e97ad3196982036a17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
