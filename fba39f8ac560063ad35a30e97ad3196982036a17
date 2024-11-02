@@ -34,6 +34,24 @@
       "parentUuid": "801b0db1_246c9b8c",
       "revId": "fba39f8ac560063ad35a30e97ad3196982036a17",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17a732e8_32d96f27",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-11-02T08:29:43Z",
+      "side": 1,
+      "message": "For example, it\u0027s possible to run ChromiumOS, Debian, etc. It has 3D accelerated graphics, keyboard \u0026 mouse input, we can use it as mobile Linux PC\n\nI\u0027ve also ran `virtio_arm64` on it for fun",
+      "parentUuid": "11ebd1a7_b152678d",
+      "revId": "fba39f8ac560063ad35a30e97ad3196982036a17",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
