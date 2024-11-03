@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3d8e604_41f541bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-03T12:18:41Z",
+      "side": 1,
+      "message": "does it really make sense to special case com.google.android.gms.location.history anyway...?",
+      "revId": "1456bde6645768f1e1d2a4aa7d4edcf40607637b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c3fd7f0_cdbbe686",
