@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bac0bdc_a83f2af8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-04T17:20:22Z",
+      "side": 1,
+      "message": "This addresses an issue where GBoard\u0027s clipboard had delays (causing copied items to take a minute or two to appear).",
+      "revId": "73c3cdacb0f653798e135880990128792cbf5fdc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
