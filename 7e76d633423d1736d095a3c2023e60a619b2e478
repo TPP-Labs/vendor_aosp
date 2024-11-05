@@ -51,6 +51,24 @@
       "parentUuid": "7e7d3fd7_078f4368",
       "revId": "7e76d633423d1736d095a3c2023e60a619b2e478",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12db88e6_c7c1b6c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-11-05T09:56:05Z",
+      "side": 1,
+      "message": "If a device ever shipped official LineageOS builds, you can\u0027t use the same codename as that device. This change is only for ancient trees that never had official builds.",
+      "parentUuid": "a1f5b8a5_4f77b14b",
+      "revId": "7e76d633423d1736d095a3c2023e60a619b2e478",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
