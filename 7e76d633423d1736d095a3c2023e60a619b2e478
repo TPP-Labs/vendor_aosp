@@ -33,6 +33,24 @@
       "message": "This is unlikely, but what would happen if the original device gets promoted again after the codename has been taken by the newer one?",
       "revId": "7e76d633423d1736d095a3c2023e60a619b2e478",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1f5b8a5_4f77b14b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28422
+      },
+      "writtenOn": "2024-11-05T09:22:04Z",
+      "side": 1,
+      "message": "For example, the Google Pixel 4 (flame) is still maintained, but there\u0027s also a Redmi device with the same codename with a maintainer planning to apply for official builds.",
+      "parentUuid": "7e7d3fd7_078f4368",
+      "revId": "7e76d633423d1736d095a3c2023e60a619b2e478",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
