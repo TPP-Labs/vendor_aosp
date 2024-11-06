@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96e3a84b_ac479730",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-11-06T17:14:28Z",
+      "side": 1,
+      "message": "hwc is still unable to use stablec mapper",
+      "revId": "a0d2b41c52e934b111d8fe4121c8bf8cba4ca45a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
