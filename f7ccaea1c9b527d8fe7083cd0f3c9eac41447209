@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "484ce018_d4481482",
+        "filename": "build/soong/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-11-06T00:24:39Z",
+      "side": 1,
+      "message": "Do we need this at all?",
+      "revId": "f7ccaea1c9b527d8fe7083cd0f3c9eac41447209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
