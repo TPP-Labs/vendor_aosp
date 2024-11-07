@@ -228,7 +228,8 @@ PRODUCT_PACKAGES += \
     CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NavigationBarNoHintOverlay \
-    NetworkStackOverlay
+    NetworkStackOverlay \
+    PermissionControllerOverlay
 
 # Translations
 CUSTOM_LOCALES += \
