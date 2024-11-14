@@ -9,6 +9,9 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 
 PRODUCT_BRAND ?= ThePixelProject
 
+# Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
+
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=android-google
