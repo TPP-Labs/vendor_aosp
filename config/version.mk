@@ -10,3 +10,7 @@ CUSTOM_PLATFORM_VERSION := 15.1
 
 CUSTOM_VERSION := PixelProject_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)
 CUSTOM_VERSION_PROP := fifteen
+
+# Signing
+-include vendor/custom-priv/keys/keys.mk
+
